@@ -1,4 +1,5 @@
 <?php
+//
 // Variables used in this script:
 //   $summary     - text title of the event
 //   $datestart   - the starting date (in seconds since unix epoch)
@@ -28,6 +29,7 @@
 //    to set, including alarms, invitees, busy status, etc.
 //
 //      https://www.ietf.org/rfc/rfc5545.txt
+//
 
 // 1. Set the correct headers for this file
 header('Content-type: text/calendar; charset=utf-8');
